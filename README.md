@@ -44,6 +44,17 @@ Detailed Process of Annotation using open labeling
 		2. Right-click -> quick delete!
 
 
+Data Generation Process for Individual Weed Species
+Use Data Generation.ipyb notebook
+Input folder: Add path of folder for soyabean with crop (intel_realsense_clicks)
+Annotation Folder: Add path  of folder  intel_realsense_clicks and use annotation folder of files exported in.txt
+Output folder: Give path of folder for storing output of individual cropped species
+
+Preprocessing:
+Use preprocessing script provided and add path of folder  for preprocessing
+
+
+
 Citation for Dataset: kaggle: @misc{sayali_shinde_dr_vahida_attar_2025,
 	title={MH-Weed16},
 	url={https://www.kaggle.com/dsv/11528454},
